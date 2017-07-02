@@ -1,0 +1,32 @@
+{
+    "pathwayTitle": "Kubernetes",
+    "icon": "fa-kubernetes",
+    "title": "Kubernetes Playground",
+    "description": "Use Kubernetes in a hosted sandboxed interactive environment",
+    "details": {
+        "steps": [
+            {
+                "code": "set-env.sh",
+                "text": "step1.md"
+            }
+        ],
+        "intro": {
+            "text": "intro.md",
+            "courseData": "courseBase.sh",
+            "credits": ""
+        },
+        "finish": {
+            "text": "finish.md"
+        }
+    },
+    "environment": {
+        "showdashboard": true,
+        "dashboard": "Dashboard",
+        "uilayout": "terminal-terminal",
+        "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\u001b[m\r\n"
+    },
+    "backend": {
+        "port": 8080,
+        "imageid": "kubernetes-cluster-running"
+    }
+}
